@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian's Homepage</title>
+    <link rel="stylesheet" href="Adrian.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Welcome to Adrian's Homepage</h1>
+        </header>
+        <section id="profile">
+            <img id="adrian-pic" src="Adrian.png" alt="Adrian's Picture">
+            <div>
+                <h2>About Adrian</h2>
+                <p>Hi, my name is Adrian. I am 16 years old, and I study at Hvitfeldtska High School in Gothenburg.</p>
+                <p>I am currently pursuing natural sciences with a strong focus on mathematics.</p>
+                <p>More about my journey and interests will be added here soon!</p>
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>My Journey to Germany Last Year</h2>
+            <div class="gallery">
+                <img src="nr1.jpg" alt="Picture 1 of Germany">
+                <img src="nr2.jpg" alt="Picture 2 of Germany">
+                <img src="nr3.jpg" alt="Picture 3 of Germany">
+                <img src="unnamed.jpg" alt="Additional Picture of Germany">
+            </div>
+        </section>
+        <section id="comments">
+            <h2>Leave a Comment</h2>
+            <form id="comment-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <label for="comment">Your Comment:</label>
+                <textarea id="comment" name="comment" placeholder="Write your comment here..." required></textarea>
+                <button type="submit">Post Comment</button>
+            </form>
+            <div id="comment-section">
+                <h3>Comments:</h3>
+                <div id="comments-container">
+                    <!-- Comments will appear here -->
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>© 2024 Adrian's Homepage. All Rights Reserved.</p>
+        </footer>
+    </div>
+    <script src="Adrian.js"></script>
+</body>
+</html>
